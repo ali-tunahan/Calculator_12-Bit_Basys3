@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mainTest_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mainTest" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="37420000fs"></ZoomStartTime>
+      <ZoomEndTime time="88136643fs"></ZoomEndTime>
+      <Cursor1Time time="52260000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="184"></NameColumnWidth>
+      <ValueColumnWidth column_width="211"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/mainTest/loadNext" type="logic">
+      <obj_property name="ElementShortName">loadNext</obj_property>
+      <obj_property name="ObjectShortName">loadNext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/switches" type="array">
+      <obj_property name="ElementShortName">switches[15:0]</obj_property>
+      <obj_property name="ObjectShortName">switches[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/centerButton" type="logic">
+      <obj_property name="ElementShortName">centerButton</obj_property>
+      <obj_property name="ObjectShortName">centerButton</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/rightButton" type="logic">
+      <obj_property name="ElementShortName">rightButton</obj_property>
+      <obj_property name="ObjectShortName">rightButton</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/upperButton" type="logic">
+      <obj_property name="ElementShortName">upperButton</obj_property>
+      <obj_property name="ObjectShortName">upperButton</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/lowerButton" type="logic">
+      <obj_property name="ElementShortName">lowerButton</obj_property>
+      <obj_property name="ObjectShortName">lowerButton</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/readAddress" type="array">
+      <obj_property name="ElementShortName">readAddress[2:0]</obj_property>
+      <obj_property name="ObjectShortName">readAddress[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/readData" type="array">
+      <obj_property name="ElementShortName">readData[11:0]</obj_property>
+      <obj_property name="ObjectShortName">readData[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/instructionRegData" type="array">
+      <obj_property name="ElementShortName">instructionRegData[11:0]</obj_property>
+      <obj_property name="ObjectShortName">instructionRegData[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/inc" type="logic">
+      <obj_property name="ElementShortName">inc</obj_property>
+      <obj_property name="ObjectShortName">inc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/out" type="array">
+      <obj_property name="ElementShortName">out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">out[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/RF_d1" type="array">
+      <obj_property name="ElementShortName">RF_d1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_d1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/RF_d2" type="array">
+      <obj_property name="ElementShortName">RF_d2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_d2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/M_rd" type="array">
+      <obj_property name="ElementShortName">M_rd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">M_rd[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/M_we" type="logic">
+      <obj_property name="ElementShortName">M_we</obj_property>
+      <obj_property name="ObjectShortName">M_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/M_re" type="logic">
+      <obj_property name="ElementShortName">M_re</obj_property>
+      <obj_property name="ObjectShortName">M_re</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/RF_we" type="logic">
+      <obj_property name="ElementShortName">RF_we</obj_property>
+      <obj_property name="ObjectShortName">RF_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/M_add" type="array">
+      <obj_property name="ElementShortName">M_add[3:0]</obj_property>
+      <obj_property name="ObjectShortName">M_add[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/RF_ad1" type="array">
+      <obj_property name="ElementShortName">RF_ad1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_ad1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/RF_ad2" type="array">
+      <obj_property name="ElementShortName">RF_ad2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_ad2[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/RF_wa" type="array">
+      <obj_property name="ElementShortName">RF_wa[2:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_wa[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/aluSelector" type="array">
+      <obj_property name="ElementShortName">aluSelector[1:0]</obj_property>
+      <obj_property name="ObjectShortName">aluSelector[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/muxSelector" type="logic">
+      <obj_property name="ElementShortName">muxSelector</obj_property>
+      <obj_property name="ObjectShortName">muxSelector</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/muxResult" type="array">
+      <obj_property name="ElementShortName">muxResult[3:0]</obj_property>
+      <obj_property name="ObjectShortName">muxResult[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/aluResult" type="array">
+      <obj_property name="ElementShortName">aluResult[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aluResult[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mainTest/lessThan" type="logic">
+      <obj_property name="ElementShortName">lessThan</obj_property>
+      <obj_property name="ObjectShortName">lessThan</obj_property>
+   </wvobject>
+</wave_config>
