@@ -1,1 +1,1 @@
-# Calculator_12-Bit_Basys3
+# Calculator_8-Bit_Basys3
